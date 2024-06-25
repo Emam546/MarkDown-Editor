@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+    :root{
+         @apply text-gray-200;
+    }
+
+@layer base{
+    #root{
+        @apply h-screen;
+    }
+    html,body{
+        @apply text-gray-200 select-none;
+    }
+    header{
+        -webkit-app-region:drag;
+    }
+    button{
+        -webkit-app-region:no-drag;
+    }
+    ::-webkit-scrollbar{
+        @apply w-2;
+    }
+    ::-webkit-scrollbar-thumb{
+        @apply bg-[#555]
+    }
+    ::-webkit-scrollbar-track{
+        @apply bg-transparent
+    }
+}
