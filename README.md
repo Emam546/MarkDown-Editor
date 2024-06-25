@@ -20,7 +20,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/Emam546/markdowneditor
+   git clone https://github.com/Emam546/MarkDown-Editor
    ```
 2. Install the dependencies:
 
